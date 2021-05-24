@@ -1,0 +1,32 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Mac .DS_store files #
+.DS_store
+
+/log
+*.log
+*.gz
+
+web/src/main/resources/build.properties
+web/src/main/resources/buildNumber.properties
+
+.flattened-pom.xml
+config/application-local-gabo.properties
+
+node_modules
+yarn.lock
